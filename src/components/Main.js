@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import pic01 from '../images/pic01.jpg'
+import quote_michelle_rosenthall from '../images/quote_michelle_rosenthall.png'
 
 class Main extends React.Component {
   render() {
@@ -13,7 +13,7 @@ class Main extends React.Component {
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About Us</h2>
-          <span className="image main"><img src={pic01} alt=""></img></span>
+          <span className="image main"><img src={quote_michelle_rosenthall} alt=""></img></span>
           <p>Licensed play therapist providing services in the Clarksville area</p>
           {close}
         </article>
