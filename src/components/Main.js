@@ -25,22 +25,18 @@ class Main extends React.Component {
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
           <form name="contact" method="POST" data-netlify="true">
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
-            </div>
-            <ul className="actions">
-              <li><button type="submit" value="Send Message" className="special">SUBMIT</button></li>
-              <li><button type="reset" value="Reset">RESET</button></li>
-            </ul>
+            <p>
+              <label>NAME: <input type="text" name="name" /></label>   
+            </p>
+            <p>
+              <label>EMAIL: <input type="email" name="email" /></label>
+            </p>
+            <p>
+              <label>MESSAGE: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
           </form>
           <ul className="icons">
             <li><a href="tel:19313209683" className="icon fa-phone"><span className="label">Phone</span></a>  (931) 320-9683</li><br></br><br></br>
