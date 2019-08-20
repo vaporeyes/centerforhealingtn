@@ -24,7 +24,7 @@ class Main extends React.Component {
         </article>
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
-          <form name="contact" method="post" netlify-honeypot="bot-field" data-netlify="true">
+          {/* <form name="contact" method="post" netlify-honeypot="bot-field" data-netlify="true">
           <input type="hidden" name="bot-field" />
             <p>
               <label>NAME: <input type="text" name="name" /></label>   
@@ -38,7 +38,7 @@ class Main extends React.Component {
             <p>
               <button type="submit">Send</button>
             </p>
-          </form>
+          </form> */}
           <ul className="icons">
             <li><a href="tel:19313209683" className="icon fa-phone"><span className="label">Phone</span></a>  (931) 320-9683</li><br></br><br></br>
             <li><a href="https://instagram.com/centerforhealingtn" className="icon fa-instagram"><span className="label">Instagram</span></a>  https://instagram.com/centerforhealingtn</li><br></br><br></br>
