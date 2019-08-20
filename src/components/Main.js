@@ -38,8 +38,8 @@ class Main extends React.Component {
               <textarea name="message" id="message" rows="4"></textarea>
             </div>
             <ul className="actions">
-              <li><button type="submit" value="Send Message" className="special" /></li>
-              <li><button type="reset" value="Reset" /></li>
+              <li><button type="submit" value="Send Message" className="special">SUBMIT</button></li>
+              <li><button type="reset" value="Reset">RESET</button></li>
             </ul>
           </form>
           <ul className="icons">
