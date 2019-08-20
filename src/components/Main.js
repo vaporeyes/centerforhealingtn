@@ -24,7 +24,7 @@ class Main extends React.Component {
         </article>
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
-          {/* <form method="post" action="#">
+          <form name="contact" method="POST" data-netlify="true" action='/'>
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -41,11 +41,11 @@ class Main extends React.Component {
               <li><input type="submit" value="Send Message" className="special" /></li>
               <li><input type="reset" value="Reset" /></li>
             </ul>
-          </form> */}
+          </form>
           <ul className="icons">
-            <li><a href="tel:19313209683" className="icon fa-phone"><span className="label">Phone</span></a></li>
-            <li><a href="https://instagram.com/centerforhealingtn" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
-            <li><a href="mailto:centerforhealingtn@gmail.com" className="icon fa-envelope"><span className="label">Email</span></a></li>
+            <li><a href="tel:19313209683" className="icon fa-phone"><span className="label">Phone</span></a>  (931) 320-9683</li><br></br><br></br>
+            <li><a href="https://instagram.com/centerforhealingtn" className="icon fa-instagram"><span className="label">Instagram</span></a>  https://instagram.com/centerforhealingtn</li><br></br><br></br>
+            <li><a href="mailto:centerforhealingtn@gmail.com" className="icon fa-envelope"><span className="label">Email</span></a>  centerforhealingtn@gmail.com</li>
           </ul>
           {close}
         </article>
