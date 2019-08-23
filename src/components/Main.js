@@ -18,7 +18,7 @@ class Main extends React.Component {
           {close}
         </article>
         <article id="services" className={`${this.props.article === 'services' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Services and Information</h2>
+          <h2 className="major">Services and Info</h2>
           <p>
           <li>Counseling services for children, teens, and adults</li>
           <li>16 year old and up may sign their own consent to treatment</li>
