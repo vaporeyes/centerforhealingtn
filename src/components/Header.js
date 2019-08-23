@@ -17,6 +17,7 @@ const Header = ({timeout, onOpenArticle}) => (
             <ul>
                 <li><a href="javascript:;" onClick={() => {onOpenArticle('about')}}>About</a></li>
                 <li><a href="javascript:;" onClick={() => {onOpenArticle('contact')}}>Contact</a></li>
+                <li><a href="javascript:;" onClick={() => {onOpenArticle('services')}}>Services</a></li>
                 <li><a href="javascript:;" onClick={() => {onOpenArticle('training')}}>Training</a></li>
             </ul>
         </nav>

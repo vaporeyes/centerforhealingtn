@@ -12,14 +12,28 @@ class Main extends React.Component {
       <div ref={this.props.setWrapperRef} id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">About Us</h2>
+          <h2 className="major">About</h2>
           <span className="image main"><img src={quote_michelle_rosenthall} alt=""></img></span>
-          <p>Licensed play therapist providing services in the Clarksville area</p>
+          <p>Trauma-informed counseling focused on helping people heal following rape, sexual assault, childhood sexual abuse, or other traumatic incidents.  LGBTQIA+ friendly.<br></br>I provide therapy through a person centered, attachment focused, and feminist theory orientation. I utilize several evidence-based, trauma informed modalities to help create space for clients to choose various mediums to facilitate, explore, express, and achieve their healing process.</p>
+          {close}
+        </article>
+        <article id="services" className={`${this.props.article === 'services' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+          <h2 className="major">Services and Information</h2>
+          <p>
+          <li>Counseling services for children, teens, and adults</li>
+          <li>16 year old and up may sign their own consent to treatment</li>
+          <li>Standard rate $150 per 50 minute session</li>
+          <li>Cash, check, and credit cards accepted</li>
+          <li>Insurance is not accepted at this time</li>
+          </p>
           {close}
         </article>
         <article id="training" className={`${this.props.article === 'training' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Training</h2>
-          <p>Licensed play therapist providing services in the Clarksville area</p>
+          <h2 className="major">Training and Credentials</h2>
+          <p>Trained in play therapy, Attachment, Self-Regulation, and Competency (ARC), Trauma-Focused Cognitive Behavioral Therapy (TF-CBT), Cognitive Processing Therapy (CPT), and I am Level 1 and 2 trained in Eye Movement Desensitization and Reprocessing (EMDR).</p>
+          {/* <ul className="icons">
+            <li>Resume <a href="../images/quote_michelle_rosenthall.jpg" className="icon fa-file-text-o"><span className="label">Resume</span></a></li>
+          </ul> */}
           {close}
         </article>
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
