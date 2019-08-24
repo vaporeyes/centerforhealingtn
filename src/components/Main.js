@@ -16,7 +16,8 @@ class Main extends React.Component {
           <span className="image main"><img src={quote_michelle_rosenthall} alt=""></img></span>
           <p>Licensed Professional Counselor specializing in trauma-informed treatment for childhood sexual abuse, sexual assault/rape, and other traumatic incidents.<br></br><br></br>
 I utilize several evidence-based, trauma informed modalities to help create space for clients to choose various mediums to facilitate, explore, express, and achieve their healing process.
-Safe space for all ages, LGBTQIA+, and alternative lifestyle groups.</p>
+Safe space for all ages, LGBTQIA+, and alternative lifestyle groups.<br></br><br></br>I have provided therapy for more than five years in a variety of settings and now offer individual 
+counseling, play therapy, family counseling, couple counseling, and group counseling services in my private practice office.</p>
           {close}
         </article>
         <article id="services" className={`${this.props.article === 'services' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
@@ -32,7 +33,7 @@ Safe space for all ages, LGBTQIA+, and alternative lifestyle groups.</p>
         </article>
         <article id="training" className={`${this.props.article === 'training' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Training and Credentials</h2>
-          <p>I provide therapy through a person centered, attachment focused, and feminist theory orientation. I utilize several evidence-based, trauma informed modalities to help create space for clients to choose various mediums to facilitate, explore, express, and achieve their healing process.<br></br><br></br>Trained in play therapy, Attachment, Self-Regulation, and Competency (ARC), Trauma-Focused Cognitive Behavioral Therapy (TF-CBT), Cognitive Processing Therapy (CPT), Internal Family Systems Therapy (IFS), and I am Level 1 and 2 trained in Eye Movement Desensitization and Reprocessing (EMDR).</p>
+          <p>I provide therapy through a person centered, attachment focused, and feminist theory orientation.<br></br><br></br>Trained in play therapy, Attachment, Self-Regulation, and Competency (ARC), Trauma-Focused Cognitive Behavioral Therapy (TF-CBT), Cognitive Processing Therapy (CPT), Internal Family Systems Therapy (IFS), and I am Level 1 and 2 trained in Eye Movement Desensitization and Reprocessing (EMDR).</p>
           {/* <ul className="icons">
             <li>Resume <a href="../images/quote_michelle_rosenthall.jpg" className="icon fa-file-text-o"><span className="label">Resume</span></a></li>
           </ul> */}
