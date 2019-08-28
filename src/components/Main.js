@@ -14,7 +14,7 @@ class Main extends React.Component {
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
           <span className="image main"><img src={quote_michelle_rosenthall} alt=""></img></span>
-          <p>Licensed Professional Counselor specializing in trauma-informed treatment for childhood sexual abuse, sexual assault/rape, and other traumatic incidents.<br></br><br></br>
+          <p>Licensed Professional Counselor specializing in trauma-informed treatment for childhood sexual abuse, sexual assault/rape, and other traumatic incidents. I also provide therapy for clients struggling with anxiety, depression and other concerns. Experience working with military members and their families.<br></br><br></br>
 I utilize several evidence-based, trauma informed modalities to help create space for clients to choose various mediums to facilitate, explore, express, and achieve their healing process.
 Safe space for all ages, LGBTQIA+, and alternative lifestyle groups.<br></br><br></br>I have provided therapy for more than five years in a variety of settings and now offer individual 
 counseling, play therapy, family counseling, couple counseling, and group counseling services in my private practice office.</p>
@@ -57,6 +57,7 @@ counseling, play therapy, family counseling, couple counseling, and group counse
             </p>
           </form> */}
           <ul className="icons">
+            <li><a className="icon fa-map-marker"><span className="label">Phone</span></a>  Providing services in Clarksville and surrounding areas.</li><br></br><br></br>
             <li><a href="tel:19313209683" className="icon fa-phone"><span className="label">Phone</span></a>  (931) 320-9683</li><br></br><br></br>
             <li><a href="https://instagram.com/centerforhealingtn" className="icon fa-instagram"><span className="label">Instagram</span></a>  https://instagram.com/centerforhealingtn</li><br></br><br></br>
             <li><a href="mailto:centerforhealingtn@gmail.com" className="icon fa-envelope"><span className="label">Email</span></a>  centerforhealingtn@gmail.com</li>
