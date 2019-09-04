@@ -25,7 +25,7 @@ counseling, play therapy, family counseling, couple counseling, and group counse
           <p>
           <li>Counseling services for children, teens, and adults</li>
           <li>16 year old and up may sign their own consent to treatment</li>
-          <li>Standard rate $150 per 50 minute session</li>
+          <li>Standard rate $100 per 50 minute session</li>
           <li>Cash, check, and credit cards accepted</li>
           <li>Insurance is not accepted at this time</li>
           </p>
