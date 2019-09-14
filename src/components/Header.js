@@ -10,7 +10,7 @@ const Header = ({timeout, onOpenArticle}) => (
         <div className="content">
             <div className="inner">
                 <h1>Center for Healing</h1>
-                <h3>Therapy provided by Nicolette Tomaszewski, LPC</h3>
+                <h3>Therapy provided by Nicolette Tomaszewski, LPC-MHSP</h3>
             </div>
         </div>
         <nav>
