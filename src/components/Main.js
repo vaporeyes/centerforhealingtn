@@ -57,10 +57,11 @@ counseling, play therapy, family counseling, couple counseling, and group counse
             </p>
           </form> */}
           <ul className="icons">
-            <li><a className="icon fa-map-marker"><span className="label">Phone</span></a>  119 North 3rd St. Suite 21, Clarksville, TN 37040</li><br></br><br></br>
+            <li><a href="https://goo.gl/maps/6gUpF3FE1JrLeTrz6" className="icon fa-map-marker"><span className="label">Phone</span></a>  119 North 3rd St. Suite 21, Clarksville, TN 37040</li><br></br><br></br>
             <li><a href="tel:19313209683" className="icon fa-phone"><span className="label">Phone</span></a>  (931) 320-9683</li><br></br><br></br>
             <li><a href="https://instagram.com/centerforhealingtn" className="icon fa-instagram"><span className="label">Instagram</span></a>  https://instagram.com/centerforhealingtn</li><br></br><br></br>
-            <li><a href="mailto:centerforhealingtn@gmail.com" className="icon fa-envelope"><span className="label">Email</span></a>  centerforhealingtn@gmail.com</li>
+            <li><a href="mailto:centerforhealingtn@gmail.com" className="icon fa-envelope"><span className="label">Email</span></a>  centerforhealingtn@gmail.com</li><br></br><br></br>
+            <li><a href="https://www.psychologytoday.com/profile/486791" className="icon fa-address-card"><span className="label">Profile</span></a>  Psychology Today Profile</li>
           </ul>
           {close}
         </article>
