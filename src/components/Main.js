@@ -3,6 +3,14 @@ import PropTypes from 'prop-types'
 
 import quote_michelle_rosenthall from '../images/quote_michelle_rosenthall.png'
 
+const JsonLd = ({ data }) =>
+  <script type="application/ld+json">
+    {JSON.stringify(data)}
+  </script>;
+
+const data = { 
+  "@context" : "http://schema.org","@type" : "Organization","name" : "Center for Healing TN","telephone" : "931-320-9683","address": {
+    "@type": "PostalAddress","streetAddress" : "119 North 3rd St. Suite 21","addressLocality" : "Clarksville","addressRegion" : " TN","postalCode" : "37040"},"description" : "The Center for Healing: a trauma-informed practice - specializing in trauma-informed treatment for childhood sexual abuse, sexual assault/rape, and other traumatic incidents and a safe space for all ages, LGBTQIA+, and alternative lifestyle groups","url" : "https://centerforhealingtn.com","logo" : "https://centerforhealingtn.com/images/heart-icon.png","openingHours": "","sameAs": ["https://www.facebook.com/Center-for-Healing-105872327448742","@centerforhealingtn"]}
 class Main extends React.Component {
   render() {
 
@@ -62,10 +70,10 @@ counseling, play therapy, family counseling, couple counseling, and group counse
             <li><a href="https://instagram.com/centerforhealingtn" className="icon fa-instagram"><span className="label">Instagram</span></a>  https://instagram.com/centerforhealingtn</li><br></br><br></br>
             <li><a href="mailto:centerforhealingtn@gmail.com" className="icon fa-envelope"><span className="label">Email</span></a>  centerforhealingtn@gmail.com</li><br></br><br></br>
             <li><a href="https://www.psychologytoday.com/profile/486791" className="icon fa-address-card"><span className="label">Profile</span></a>  Psychology Today Profile</li>
-          </ul> 
+          </ul>
           {close}
         </article>
-
+        <JsonLd data={data} />
       </div>
     )
   }
