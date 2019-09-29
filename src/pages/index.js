@@ -95,7 +95,7 @@ class IndexPage extends React.Component {
       <Layout location={this.props.location}>
         <SEO
           title="Center for Healing"
-          keywords={[`sexual assault`, `rape`, `sexual abuse`, `child sexual abuse`, `childhood sexual abuse`, `rape counseling`, `trauma therapy`, `therapy`, `rape crisis counseling`, `sexual assault therapy`, `play therapy`, `child trauma therapy`, `sex abuse therapy`, `transgender therapy`, `sex work counseling`, `counseling`, `therapist`, `counselor`, `LGBTQIA`, `LGBTQIA therapy`, `anxiety`, `depression`, `trauma`]}
+          keywords={[`clarksville`, `tennessee`, `tn`, `sexual assault`, `rape`, `sexual abuse`, `child sexual abuse`, `childhood sexual abuse`, `rape counseling`, `trauma therapy`, `therapy`, `rape crisis counseling`, `sexual assault therapy`, `play therapy`, `child trauma therapy`, `sex abuse therapy`, `transgender therapy`, `sex work counseling`, `counseling`, `therapist`, `counselor`, `LGBTQIA`, `LGBTQIA therapy`, `anxiety`, `depression`, `trauma`]}
         />
         <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
           <div id="wrapper">

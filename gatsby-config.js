@@ -8,6 +8,7 @@ module.exports = {
     phone: '+19313209683',
     address: '119 N. 3rd St. Clarksville, TN 37040',
     keywords: [
+      'clarksville', 'tennessee', 'tn',
       'sexual assault',
       'rape','sexual abuse', 
       'child sexual abuse', 
