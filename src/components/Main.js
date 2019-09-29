@@ -62,7 +62,7 @@ counseling, play therapy, family counseling, couple counseling, and group counse
             <li><a href="https://instagram.com/centerforhealingtn" className="icon fa-instagram"><span className="label">Instagram</span></a>  https://instagram.com/centerforhealingtn</li><br></br><br></br>
             <li><a href="mailto:centerforhealingtn@gmail.com" className="icon fa-envelope"><span className="label">Email</span></a>  centerforhealingtn@gmail.com</li><br></br><br></br>
             <li><a href="https://www.psychologytoday.com/profile/486791" className="icon fa-address-card"><span className="label">Profile</span></a>  Psychology Today Profile</li>
-          </ul>
+          </ul> 
           {close}
         </article>
 
