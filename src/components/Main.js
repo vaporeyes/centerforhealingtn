@@ -8,7 +8,7 @@ const JsonLd = ({ data }) =>
     {JSON.stringify(data)}
   </script>;
 
-const data = { 
+const data = {
   "@context" : "http://schema.org","@type" : "Organization","name" : "Center for Healing TN","telephone" : "931-320-9683","address": {
     "@type": "PostalAddress","streetAddress" : "119 North 3rd St. Suite 21","addressLocality" : "Clarksville","addressRegion" : " TN","postalCode" : "37040"},"description" : "The Center for Healing: a trauma-informed practice - specializing in trauma-informed treatment for childhood sexual abuse, sexual assault/rape, and other traumatic incidents and a safe space for all ages, LGBTQIA+, and alternative lifestyle groups","url" : "https://centerforhealingtn.com","logo" : "https://centerforhealingtn.com/images/heart-icon.png","openingHours": "","sameAs": ["https://www.facebook.com/Center-for-Healing-105872327448742","@centerforhealingtn"]}
 class Main extends React.Component {
@@ -24,7 +24,7 @@ class Main extends React.Component {
           <span className="image main"><img src={quote_michelle_rosenthall} alt=""></img></span>
           <p>Licensed Professional Counselor specializing in trauma-informed treatment for childhood sexual abuse, sexual assault/rape, and other traumatic incidents. I also provide therapy for clients struggling with anxiety, depression and other concerns. Experience working with military members and their families.<br></br><br></br>
 I utilize several evidence-based, trauma informed modalities to help create space for clients to choose various mediums to facilitate, explore, express, and achieve their healing process.
-Safe space for all ages, LGBTQIA+, and alternative lifestyle groups.<br></br><br></br>I have provided therapy for more than five years in a variety of settings and now offer individual 
+Safe space for all ages, LGBTQIA+, and alternative lifestyle groups.<br></br><br></br>I have provided therapy for more than five years in a variety of settings and now offer individual
 counseling, play therapy, family counseling, couple counseling, and group counseling services in my private practice office.</p>
           {close}
         </article>
@@ -33,7 +33,7 @@ counseling, play therapy, family counseling, couple counseling, and group counse
           <p>
           <li>Counseling services for children, teens, and adults</li>
           <li>16 year old and up may sign their own consent to treatment</li>
-          <li>Standard rate $100 per 50 minute session</li>
+          <li>Standard rate $120 per 50 minute session</li>
           <li>Cash, check, and credit cards accepted</li>
           <li>Insurance is not accepted at this time</li>
           </p>
@@ -52,7 +52,7 @@ counseling, play therapy, family counseling, couple counseling, and group counse
           {/* <form name="contact" method="post" netlify-honeypot="bot-field" data-netlify="true">
           <input type="hidden" name="bot-field" />
             <p>
-              <label>NAME: <input type="text" name="name" /></label>   
+              <label>NAME: <input type="text" name="name" /></label>
             </p>
             <p>
               <label>EMAIL: <input type="email" name="email" /></label>
